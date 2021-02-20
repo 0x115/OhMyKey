@@ -12,7 +12,7 @@ int EMULATE(int key_hex)
     ip.ki.wScan = 0; // hardware scan code for key
     ip.ki.time = 0;
     ip.ki.dwExtraInfo = 0;
-    ip.ki.wVk = key_hex; // PLAY_PAUSE_CODE
+    ip.ki.wVk = key_hex; // KEY_CODE
     ip.ki.dwFlags = 0; // 0 for key press
     SendInput(1, &ip, sizeof(INPUT));
     // Release key
