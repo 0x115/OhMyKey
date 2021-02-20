@@ -12,3 +12,5 @@ Usage example (C#):
         {
             emulate_key(0xB3); // 0xB3 - HEX code for VK_MEDIA_PLAY_PAUSE
         }
+
+You can find keyboard codes here: https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
